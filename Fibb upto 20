@@ -1,0 +1,15 @@
+#include <iostream.h>
+void main(){
+ int f0,f1,f,n;
+ f0=0;
+ f1=1;
+  cout<<"Fibbonacci Series :";
+  cout<<f0;
+  cout<<f1;
+  for(n=2;n<20;n++){
+    f=f0+f1;
+    cout<<f;
+    f0=f1;
+    f1=f;
+    }
+  }  
